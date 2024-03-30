@@ -5,8 +5,8 @@ import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
-// import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import { HamburgerMenu } from "../design/Header";
 
 const Header = () => {
   const pathname = useLocation();
@@ -64,7 +64,7 @@ const Header = () => {
             ))}
           </div>
 
-          {/* <HamburgerMenu /> */}
+          <HamburgerMenu />
         </nav>
 
         <a
